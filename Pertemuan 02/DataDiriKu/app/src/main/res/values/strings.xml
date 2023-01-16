@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">DataDiriKu</string>
+    <string name="data_nim">NIM\t\t\t : A11.2021.13819</string>
+    <string name="data_nama">Nama\t\t : Maulana As\'an Hamid</string>
+    <string name="data_alamat">Alamat\t : Mugassari, Semarang Selatan</string>
+    <string name="data_telepon">Telepon\t : 087730393303</string>
+    <string name="data_email">Email\t\t : 111202113819@mhs.dinus.ac.id</string>
+    <string name="cv_btn">CV ku</string>
+</resources>

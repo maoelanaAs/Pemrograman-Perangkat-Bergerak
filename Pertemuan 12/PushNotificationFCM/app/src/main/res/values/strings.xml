@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Push Notification FCM</string>
+
+    <string name="token">Token : %s</string>
+    <string name="news">News</string>
+    <string name="promo">Promo</string>
+    <string name="show_token">Show Token</string>
+</resources>

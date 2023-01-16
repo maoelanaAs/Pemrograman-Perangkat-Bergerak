@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SimpleCalc</string>
+    <string name="angka1">Masukkan angka 1</string>
+    <string name="angka2">Masukkan angka 2</string>
+</resources>

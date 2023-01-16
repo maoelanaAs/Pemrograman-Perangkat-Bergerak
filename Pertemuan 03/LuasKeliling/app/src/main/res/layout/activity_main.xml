@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/txtPilihan" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginVertical="10dp">
+
+        <Button
+            android:id="@+id/persegi"
+            android:layout_width="125dp"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="5dp"
+            android:text="persegi"
+            android:onClick="runPersegi"/>
+
+        <Button
+            android:id="@+id/segitiga"
+            android:layout_width="125dp"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="5dp"
+            android:layout_toEndOf="@+id/persegi"
+            android:text="segitiga"
+            android:onClick="runSegitiga"/>
+
+        <Button
+            android:id="@+id/lingkaran"
+            android:layout_width="125dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/persegi"
+            android:layout_marginHorizontal="5dp"
+            android:text="lingkaran"
+            android:onClick="runLingkaran"/>
+
+        <Button
+            android:id="@+id/kubus"
+            android:layout_width="125dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/segitiga"
+            android:layout_marginHorizontal="5dp"
+            android:layout_toEndOf="@+id/lingkaran"
+            android:text="kubus"
+            android:onClick="runKubus"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

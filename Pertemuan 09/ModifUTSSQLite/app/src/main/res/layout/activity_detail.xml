@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".activity.DetailActivity">
+
+    <ImageView
+        android:id="@+id/imgDetail"
+        android:layout_width="200dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="200dp"
+        android:src="@drawable/product_01"/>
+
+    <TextView
+        android:id="@+id/nameDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dirty Creamy"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/descDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Oreo powder + carnation + UHT milk + ice cube"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/priceDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rp12.000"
+        android:textSize="20sp" />
+
+</LinearLayout>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardBrg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginVertical="10dp"
+        android:layout_marginHorizontal="15dp"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="3dp"
+        app:contentPadding="7dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/kodeBrg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kode Brg \t: " />
+
+                <TextView
+                    android:id="@+id/namaBrg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Nama Brg\t: " />
+
+                <TextView
+                    android:id="@+id/hrgBeli"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Hrg Beli \t\t: Rp. " />
+
+                <TextView
+                    android:id="@+id/hrgJual"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Hrg Jual\t\t: Rp. " />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.25"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/stanBrg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Satuan\t\t\t: " />
+
+                <TextView
+                    android:id="@+id/stokBrg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Stok Now\t: " />
+
+                <TextView
+                    android:id="@+id/stokMin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Stok Min \t: " />
+            </LinearLayout>
+
+
+            <ImageView
+                android:id="@+id/btnDele"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:src="@drawable/ic_delete" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

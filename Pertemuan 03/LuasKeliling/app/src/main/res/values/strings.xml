@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Luas &amp; Keliling</string>
+    <string name="app_name2"><![CDATA[Luas & Keliling Persegi]]></string>
+    <string name="app_name3"><![CDATA[Luas & Keliling Segitiga]]></string>
+    <string name="app_name4"><![CDATA[Luas & Keliling Lingkaran]]></string>
+    <string name="app_name5"><![CDATA[Luas & Keliling Kubus]]></string>
+    <string name="title">Aplikasi Menghitung Luas dan Keliling</string>
+    <string name="txtPilihan">Pilih salah satu yang akan di hitung :</string>
+    <string name="titlePersegi">Menghitung Luas dan Keliling PERSEGI</string>
+    <string name="titleSegitiga">Menghitung Luas SEGITIGA</string>
+    <string name="titleLingkaran">Menghitung Luas dan Keliling LINGKARAN</string>
+    <string name="titleKubus">Menghitung Luas dan Keliling KUBUS</string>
+</resources>

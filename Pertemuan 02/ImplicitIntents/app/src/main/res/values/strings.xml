@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Implicit Intents</string>
+    <string name="web_hint">http://dinus.ac.id</string>
+    <string name="web_btn">Buka halaman</string>
+    <string name="loc_hint">Universitas Dian Nuswantoro</string>
+    <string name="loc_btn">Buka Lokasi</string>
+    <string name="text_hint">UDINUS Selalu di Hati</string>
+    <string name="text_btn">Bagikan text</string>
+</resources>

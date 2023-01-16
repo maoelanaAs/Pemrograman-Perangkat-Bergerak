@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">ScrollingText</string>
+    <string name="title">Java atau Kotlin untuk membuat Aplikasi Android?</string>
+    <string name="subtitle">karya Perdana Samudra, Intern Junior Content Writer di Dicoding</string>
+    <string name="content">
+        \t\tPada dasarnya, dalam pengembangan aplikasi berbasis Android menggunakan bahasa pemrograman Java. Lalu muncullah Kotlin yang dikembangkan oleh JetBrains. JetBrains merupakan perusahaan pengembangan software yang juga pengembang IDE (Integrated Development Environment) IntelliJ. Pada tanggal 7 Mei 2019, Google resmi menggunakan Kotlin untuk pengembangan aplikasi Android.
+        \n
+        \t\tJadi untuk kalian para programmer Android, harus fokus kemana nih? Java atau Kotlin untuk membuat Aplikasi Android?
+        \n
+        \t\tJava, bahasa pemrograman yang sudah banyak dipakai di banyak platform selama bertahun-tahun atau Kotlin yang relatif baru di dunia pemrograman?
+        \n
+        \t\tBebelum memutuskan mau memilih yang mana, yuk kita lihat apa perbedaan Kotlin dengan Java;
+        \n
+    <b>1. Multi Platform</b>
+        \n
+        \t\tKita mengetahui Java merupakan bahasa pemrograman inti dari pengembangan Android. Sedangkan Kotlin bisa dipakai untuk mengembangkan aplikasi di berbagai platform contohnya iOS. Karena Kotlin dibuat menggunakan bahasa pemrograman Java, Kotlin dapat beroperasi di apapun yang dapat dijalankan menggunakan JVM <i>(Java Virtual Machine)</i>.
+        \n
+    <b>2. Waktu Kompilasi</b>
+        \n
+        \t\tBisa dibilang untuk perbedaan waktu yang dibutuhkan untuk Java dan Kotlin mengkompilasi source code, di sini Java terlihat lebih unggul. Dalam banyak kasus, kecepatan kompilasi di Kotlin lebih lambat daripada Java.
+        \n
+    <b>3. Null Safety</b>
+        \n
+        \t\tJika kamu seorang programmer Java, kamu pasti familiar dengan istilah error NullPointerException. Itu adalah sebuah error ketika kode Java dieksekusi, ada pemanggilan objek atau atribut yang belum diinisialisasi. Kotlin sendiri sudah dibuat untuk mengatasi hal tersebut sehingga programmer Kotlin akan aman ketika membuat objek yang bernilai Null. Sedangkan untuk Java, NullSafety hanya ada pada versi 7.
+        \n
+    <b>4. Komunitas</b>
+        \n
+        \t\tJava merupakan bahasa pemrograman yang tergolong tua dan kuat, istilahnya tua tua keladi. Komunitas di Java sendiri tergolong sangat besar karena sudah cukup lama ada dan terus berkembang hingga saat ini. Dibandingkan dengan Kotlin yang baru, komunitasnya sendiri masih tergolong sedikit. Walaupun begitu, sekarang pengembang dan perusahaan sudah mulai ikut juga beralih ke Kotlin untuk mengembangkan Aplikasi Androidnya.
+        \n
+    <b>5. Penulisan Source Code</b>
+        \n
+        \t\tJava itu kuat karena penulisan kode nya sangat sensitif dan kode boilerplate yang digunakan bisa sangat banyak. Sedangkan di Kotlin, penulisan kode boilerplate yang dilakukan secara berulang-ulang tidak diperlukan. Sehingga kode yang kita tuliskan akan lebih ringkas dibandingkan saat kita menggunakan Java.
+        \n
+    <b>Kesimpulan</b>
+        \n
+        \t\tJadi yang mana nih yang harus dipilih? Java atau Kotlin untuk membuat Aplikasi Android?
+        \n
+        \t\tKalo menurut penulis sih, buat kamu yang sudah terjun sebagai Developer Android sebaiknya segera bermigrasi ke Kotlin. Alasannya karena si raksasa Google yang mengembangkan Android sudah mengumumkan jika Kotlin menjadi bahasa resmi untuk Android dan sebagai seorang yang bekerja di bidang developer baiknya mengikuti perkembangan jaman.
+        \n
+        \t\tSedangkan untuk yang sedang belajar dan baru mau terjun ke Android, langsung aja belajar Kotlin. Java mungkin akan dipakai beriringan dengan Kotlin untuk pengembangan Android sekarang ini, sampai nanti akan Full menggunakan Kotlin.
+        \n
+        \t\tEits, tapi bukan berarti kamu ga perlu belajar Java. Java memiliki dasar yang kuat untuk OOP (Object Oriented Programming) dan masih banyak dipakai perusahaan perangkat lunak di dunia.
+    </string>
+</resources>

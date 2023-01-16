@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.learning.modifutsmysql">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".util.AppController"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logo_boyolali"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ModifUTSMySql"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".activity.DetailActivity"
+            android:exported="true"
+            android:label="Detail Produk"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name=".support.PARENT_ACTIVITY"
+                android:value="com.learning.modifutsmysql.MainActivity" />
+        </activity>
+        <activity
+            android:name=".activity.InsertProductActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.UpdateUserActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.CheckOutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.SignUpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.SignInActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:label="Product List"
+            android:theme="@style/Theme.ModifUTSMySql.NoActionBar" />
+    </application>
+
+</manifest>

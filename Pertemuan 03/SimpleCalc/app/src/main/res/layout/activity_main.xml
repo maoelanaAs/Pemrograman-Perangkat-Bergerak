@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/angka1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:hint="@string/angka1"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/angka2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:hint="@string/angka2"
+        android:inputType="numberDecimal" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:onClick="onAdd"
+            android:text="add" />
+
+        <Button
+            android:id="@+id/sub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:layout_toEndOf="@+id/add"
+            android:onClick="onSub"
+            android:text="sub" />
+
+        <Button
+            android:id="@+id/mul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/add"
+            android:layout_marginHorizontal="5dp"
+            android:onClick="onMul"
+            android:text="mul" />
+
+        <Button
+            android:id="@+id/div"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sub"
+            android:layout_marginHorizontal="5dp"
+            android:layout_toEndOf="@+id/mul"
+            android:onClick="onDiv"
+            android:text="div" />
+
+        <Button
+            android:id="@+id/sqrd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:layout_toEndOf="@id/sub"
+            android:onClick="onSqrd"
+            android:text="sqrd" />
+
+        <Button
+            android:id="@+id/sqrt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sqrd"
+            android:layout_marginHorizontal="5dp"
+            android:layout_toEndOf="@id/div"
+            android:onClick="onSqrt"
+            android:text="sqrt" />
+
+        <Button
+            android:id="@+id/max"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mul"
+            android:layout_marginHorizontal="5dp"
+            android:onClick="onMax"
+            android:text="max" />
+
+        <Button
+            android:id="@+id/min"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/div"
+            android:layout_marginHorizontal="5dp"
+            android:layout_toEndOf="@+id/max"
+            android:onClick="onMin"
+            android:text="min" />
+
+        <Button
+            android:id="@+id/rst"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/div"
+            android:layout_marginHorizontal="5dp"
+            android:layout_toEndOf="@+id/min"
+            android:onClick="onRst"
+            android:text="reset" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/hasil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="15dp"
+        android:text="="
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+</LinearLayout>
